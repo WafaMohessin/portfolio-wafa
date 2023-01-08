@@ -1,8 +1,17 @@
 import React from 'react'
 
-export const Contact = () => {
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import HeroImg2 from '../components/HeroImg2';
+
+
+const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <Navbar/>
+      <HeroImg2  heading="CONTACT." text="Chat with me" />
+      <Footer />
+    </div>
   )
 }
 

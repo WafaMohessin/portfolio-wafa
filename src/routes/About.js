@@ -1,8 +1,17 @@
 import React from 'react'
 
-export const About = () => {
+import Navbar from '../components/Navbar';
+
+import Footer from '../components/Footer';
+import HeroImg2 from '../components/HeroImg2';
+
+const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Navbar/>
+      <HeroImg2  heading="ABOUT." text="I am Front-End Developer" />
+      <Footer />
+    </div>
   )
 }
 

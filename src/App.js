@@ -12,12 +12,13 @@ import {Route, Routes} from "react-router-dom";
 function App() {
   return (
    <>
+    {/* 1. then we have to import our Routes inside our input section above  */}
       <Routes>
         <Route path= "/" element={<Home />} />
         <Route path= "/project" element={<Project />} />
         <Route path= "/about" element={<About />} />
-        <Route path= "/contact " element={<Contact />} />
-        {/* 1. then we have to import our Routes inside our input section above  */}
+        <Route path= "/contact" element={<Contact />} />
+      
       </Routes>
    </>
   );
