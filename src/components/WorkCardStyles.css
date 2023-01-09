@@ -3,8 +3,8 @@
     padding: 4rem 0 2rem 0;
 }
 
-.project-container{
-    max-width:1140 px;
+.projet-container{
+    max-width:1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -22,7 +22,8 @@
 }
 
 .project-title{
-    color:#fff;padding: 1rem 0;
+    color:#fff;
+    padding: 1rem 0;
 }
 
 .pro-details p{
@@ -42,8 +43,8 @@
     padding:0.5rem 1rem;
 }
 
-@media screen and (max-width:740) {
-    .project-container{
+@media screen and (max-width:740px) {
+    .projet-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
